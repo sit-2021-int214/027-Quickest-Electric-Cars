@@ -14,7 +14,7 @@ Datasets from: [Quickest Electric Cars] (https://www.kaggle.com/kkhandekar/quick
 2. พิรญาณ์   สุทธิปริญญานนท์     StudentID: 63130500087
 3. วิชชุตา    พิภพภิญโญ         StudentID: 63130500106
 4. กรรณิการ์  งาสุวรรณ์           StudentID: 63130500147
-5. เกตุดารา  ศิลารัตน์            StudentID: 63130500xxx
+5. เกศดารา  ศิลารัตน์            StudentID: 63130500149
 
 ### Instructor
 - ATCHARA TRAN-U-RAIKUL
