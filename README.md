@@ -1,5 +1,5 @@
-# GroupID-Datasetname
-Datasets from: [NAME](link)
+# Group027-Quickest-Electric-Cars
+Datasets from: [Quickest Electric Cars] (https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?fbclid=IwAR2qAD5u_SvDDAnT1wM5y_nGQHhiZ3yPnVCeyq1sk71HfE2aH_Qbjl9VPMY)
 
 ## Objective
 
@@ -10,11 +10,11 @@ Datasets from: [NAME](link)
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 ### Team: nameXXXXXX
-1. ชื่อ นามสกุล     StudentID: 63130500xxx
-2. ชื่อ นามสกุล     StudentID: 63130500xxx
-3. ชื่อ นามสกุล     StudentID: 63130500xxx
-4. ชื่อ นามสกุล     StudentID: 63130500xxx
-5. ชื่อ นามสกุล     StudentID: 63130500xxx
+1. พรธิชา    แสงมณี            StudentID: 63130500084
+2. พิรญาณ์   สุทธิปริญญานนท์     StudentID: 63130500087
+3. วิชชุตา    พิภพภิญโญ         StudentID: 63130500106
+4. กรรณิการ์  งาสุวรรณ์           StudentID: 63130500147
+5. เกตุดารา  ศิลารัตน์            StudentID: 63130500xxx
 
 ### Instructor
 - ATCHARA TRAN-U-RAIKUL
