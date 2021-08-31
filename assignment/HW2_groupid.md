@@ -2,8 +2,8 @@
 Explore 2 dataset that given then finding descriptive statistics and summary result in form of sentences/paragraph at least 5 topics.
 
 ### Dataset
-Cats (Ref: https://www.rdocumentation.org/packages/MASS/versions/7.3-47/topics/cats)
-Survey (Ref: https://www.rdocumentation.org/packages/MASS/versions/7.3-47/topics/survey)
+- Cats (Ref: https://www.rdocumentation.org/packages/MASS/versions/7.3-47/topics/cats)
+- Survey (Ref: https://www.rdocumentation.org/packages/MASS/versions/7.3-47/topics/survey)
 
 ### Answer
 
