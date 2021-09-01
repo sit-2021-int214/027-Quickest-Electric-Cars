@@ -7,21 +7,58 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 ### Answer
 
-#### 1.) From survey, most students use left hand writing.
-```{R}
-Code here
+#### 1.) จากตารางข้อมูล cats จงหาจำนวนของแมวเพศเมีย และเพศผู้
+```ruby
+sum(cats$Sex == 'M') #97
+sum(cats$Sex == 'F') #47
 ```
 
-#### 2.) Descriptive statistics Statement
-```{R}
-Code here
+#### 2.) จากตารางข้อมูล cats จงหาค่า mean median mode ของน้ำหนัดตัวของแมวทั้งหมด 
+```ruby
+mean(cats$Bwt)	  #2.723611
+median(cats$Bwt)  #2.7
+Mode(cats$Bwt)	  #2.2 (14)
+```
+
+#### 3.) จากตารางข้อมูล survey จงหาจำนวนของคนที่เขียนมือซ้ายและมือขวา
+```ruby
+table(survey$W.Hnd)
+# Left Right 
+#   18   218
+```
+
+#### 4.) จากตารางข้อมูล survey อยากรู้ว่าคนที่มีอายุมากที่สุดใน survey นี้ มีอายุเท่าไร
+```ruby
+max(survey$Age)  #73
+```
+
+#### 5.) จากตารางข้อมูล survey จงหาค่า summary ของ survey
+```ruby
+summary(survey)
+#Sex          Wr.Hnd          NW.Hnd        W.Hnd          Fold         Pulse             Clap    
+# Female:118   Min.   :13.00   Min.   :12.50   Left : 18   L on R : 99   Min.   : 35.00   Left   : 39  
+# Male  :118   1st Qu.:17.50   1st Qu.:17.50   Right:218   Neither: 18   1st Qu.: 66.00   Neither: 50  
+# NA's  :  1   Median :18.50   Median :18.50   NA's :  1   R on L :120   Median : 72.50   Right  :147  
+#              Mean   :18.67   Mean   :18.58                             Mean   : 74.15   NA's   :  1  
+#              3rd Qu.:19.80   3rd Qu.:19.73                             3rd Qu.: 80.00                
+#              Max.   :23.20   Max.   :23.50                             Max.   :104.00                
+#              NA's   :1       NA's   :1                                 NA's   :45                    
+#   Exer       Smoke         Height            M.I           Age       
+# Freq:115   Heavy: 11   Min.   :150.0   Imperial: 68   Min.   :16.75  
+# None: 24   Never:189   1st Qu.:165.0   Metric  :141   1st Qu.:17.67  
+# Some: 98   Occas: 19   Median :171.0   NA's    : 28   Median :18.58  
+#            Regul: 17   Mean   :172.4                  Mean   :20.37  
+#            NA's :  1   3rd Qu.:180.0                  3rd Qu.:20.17  
+#                       Max.   :200.0                  Max.   :73.00  
+#                        NA's   :28                                  
+
 ```
 
 
-### Team: นึกไม่ออก ขอ A ละกัน
+### Team: นึกไม่ออก ขอ A แทนละกัน
 
-1. พรธิชา แสงมณี           StudentID: 63130500084
-2. พิรญาณ์ สุทธิปริญญานนท์   StudentID: 63130500087
-3. วิชชุตา พิภพภิญโญ        StudentID: 63130500106
-4. กรรณิการ์ งาสุวรรณ์        StudentID: 63130500147
-5. เกศดารา ศิลารัตน์         StudentID: 63130500149
+1. พรธิชา แสงมณี           | StudentID: 63130500084
+2. พิรญาณ์ สุทธิปริญญานนท์   | StudentID: 63130500087
+3. วิชชุตา พิภพภิญโญ        | StudentID: 63130500106
+4. กรรณิการ์ งาสุวรรณ์        | StudentID: 63130500147
+5. เกศดารา ศิลารัตน์         | StudentID: 63130500149
