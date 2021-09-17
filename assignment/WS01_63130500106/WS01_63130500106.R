@@ -6,8 +6,6 @@ library(dplyr)
 
 # xxxx
 
-
-
 # USEFUL FUNCTION (After finished please remove it) -------------------------
 ## Stat
 sum()
@@ -46,3 +44,14 @@ assert_all_are_in_closed_range()
 
 SAT_score <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/SAT_original.csv")
 View(SAT_score)
+#1. How many observation of this dataset (before cleaning) ?
+count(SAT_score) #485
+
+#2. Are there duplicate data sets ? (If have duplicate data, list the data that duplicate)
+SAT_score %>% duplicated() %>% table()
+
+#3. How many distinct school in this dataset ? (Know after drop duplicate data)
+#4. What is min, max, average, quartile of each part in SAT ?
+#5. What is min, max, average, quartile of total score in SAT ?
+#6. Which school is get highest SAT score ?
+
