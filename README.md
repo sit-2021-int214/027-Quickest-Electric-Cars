@@ -27,7 +27,7 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ## Process
 ### Table of Contents
-1. [Download Library and dataset + Cleaning Data](./Cleaning.md)
+1. [Download Library and dataset + Data Cleaning and Data Transformation](./Cleaning.md)
 2. [Answer the question]()
 
 ## Resources
