@@ -15,7 +15,7 @@ Code
 EV %>% select(`Battery EV (kWh)`, `Efficiency(Wh/km)`)
 ```
 Result
-```ruby
+```
 `Battery EV (kWh)` `Efficiency(Wh/km)`
                 <dbl>               <dbl>
  1              200                   206
