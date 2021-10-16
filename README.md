@@ -13,20 +13,6 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ### Steps
 1. Explore the dataset from the original dataset
-* มีทั้งหมด 179 ข้อมูล
-* มี 11 column ดังนี้
-  * Name = ชื่อยี่ห้อและรุ่นของรถ : `char`
-  * Subtitle = ความจุแบตเตอรี่ของรถ : `char`
-  * Acceleration = อัตราการเร่ง (เมื่อรถเปลี่ยนความเร็ว) : `char`
-  * TopSpeed = ความเร็วสูงสุด : char
-  * Range = ค่าระยะทางที่รถสามารถวิ่งได้ (จนพลังงานนั้นหมด) : `char`
-  * Efficiency = ประสิทธิภาพ (ค่าพลังงานทีใช้ไปต่อชั่วโมง) : `char`
-  * Fast Charge Speed = ความเร็วในการชาร์จแบตเตอรี่ : `char`
-  * Drive = ล้อที่ใช้ชับเคลื่อน : `char`
-  * Number of Seats = จำนวนที่นั่ง : `double`
-  * Price in Germany = ราคารถในประเทศเยอรมัน : `char`
-  * Price in UK = ราคาในประเทศอังกฤษ : `char`
-
 2. Define a question
 3. Download Library and dataset
 4. Data Cleaning and Data Transformation
