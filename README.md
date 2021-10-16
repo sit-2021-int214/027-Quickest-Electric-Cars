@@ -42,8 +42,8 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ## Resources
 Important Files in Repository
-clean-data.R : Data Cleaning and Data Transformation 
-[Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv) : Original Dataset
+* clean-data.R : Data Cleaning and Data Transformation 
+* [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv) : Original Dataset
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
