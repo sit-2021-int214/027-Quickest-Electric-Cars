@@ -3,6 +3,19 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ## Overview
 ข้อมูลชุดนี้เป็นข้อมูลเกี่ยวกับ Electric Vehicles หรือรถยนต์ไฟฟ้าของแต่ละรุ่นที่วางขายในตลาดของทวีปยุโรป เพื่อใช้เป็นข้อมูลในการวางแผนการลงทุนเทคโนโลยีด้านยานพาหนะที่มีประโยชน์ต่อสิ่งแวดล้อม
+โดยมีจำนวนข้อมูลทั้งหมด 179 ข้อมูล มีทั้งหมด 11 คอลัมน์ ได้แก่ 
+* Name(ชื่อยี่ห้อและรุ่นของรถ)
+* Subtitle(ความจุแบตเตอรี่ของรถ)
+* Acceleration(อัตราการเร่ง เมื่อรถเปลี่ยนความเร็ว)
+* TopSpeed(ความเร็วสูงสุด)
+* Range(ค่าระยะทางที่รถสามารถวิ่งได้ จนพลังงานนั้นหมด)
+* Efficiency(ค่าพลังงานทีใช้ไปต่อชั่วโมง)
+* Fast Charge Speed(ความเร็วในการชาร์จแบตเตอรี่)
+* Drive(ล้อที่ใช้ชับเคลื่อน)
+* Number of Seats(จำนวนที่นั่ง)
+* Price in Germany(ราคารถในประเทศเยอรมัน)
+* Price in UK(ราคาในประเทศอังกฤษ)
+
 ### Objective
 1. เก็บพลังงานไฟฟ้าได้มากหรือน้อยมีผลต่อระยะเวลาในการใช้งานไหม
 2. แบตเตอรี่ของรถส่งผลต่ออัตราการเร่งของรถหรือไม่
@@ -13,20 +26,6 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ### Steps
 1. Explore the dataset from the original dataset
-* มีทั้งหมด 179 ข้อมูล
-* มี 11 column ดังนี้
-  * Name = ชื่อยี่ห้อและรุ่นของรถ : `char`
-  * Subtitle = ความจุแบตเตอรี่ของรถ : `char`
-  * Acceleration = อัตราการเร่ง (เมื่อรถเปลี่ยนความเร็ว) : `char`
-  * TopSpeed = ความเร็วสูงสุด : char
-  * Range = ค่าระยะทางที่รถสามารถวิ่งได้ (จนพลังงานนั้นหมด) : `char`
-  * Efficiency = ประสิทธิภาพ (ค่าพลังงานทีใช้ไปต่อชั่วโมง) : `char`
-  * Fast Charge Speed = ความเร็วในการชาร์จแบตเตอรี่ : `char`
-  * Drive = ล้อที่ใช้ชับเคลื่อน : `char`
-  * Number of Seats = จำนวนที่นั่ง : `double`
-  * Price in Germany = ราคารถในประเทศเยอรมัน : `char`
-  * Price in UK = ราคาในประเทศอังกฤษ : `char`
-
 2. Define a question
 3. Download Library and dataset
 4. Data Cleaning and Data Transformation
@@ -39,24 +38,15 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 - website kaggle
 - Visual studio
 
-## Objective
-1. รถที่เก็บพลังงานไฟฟ้าได้มากหรือน้อยมีผลต่อระยะเวลาในการใช้งานไหม
-2. แบตเตอรี่ของรถส่งผลต่ออัตราการเร่งของรถหรือไม่
-3. การใช้ล้อในการเคลื่อนที่แบบใดมีประสิทธิภาพมากกว่ากัน
-4. ราคาที่ขายรถไฟฟ้าในประเทศเยอรมันและประเทศอังกฤษมีความแตกต่างกันเพียงใด
-5. Top speed ของรถไฟฟ้า
-6. ขนาดความจุของแบตเตอรี่มีผลต่อความสามารถในการชาร์จพลังงานหรือไม่
-
-
 ## Process
 ### Table of Contents
-1. [Download Library and dataset + Cleaning Data]()
+1. [Download Library and dataset + Data Cleaning and Data Transformation](./Cleaning.md)
 2. [Answer the question]()
 
 ## Resources
 Important Files in Repository
 * clean-data.R : Data Cleaning and Data Transformation 
-* [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv) : Original Dataset
+* [Quickest Electric Cars](./Quickestelectriccars-EVDatabase.csv) : Original Dataset
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
