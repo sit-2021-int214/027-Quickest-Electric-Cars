@@ -1,4 +1,4 @@
-" ","Name","Battery.EV..kWh.","Acceleration.sec.","TopSpeed.km.h.","Range.km.","Efficiency.Wh.km.","FastChargeSpeed.km.h.","Drive","NumberofSeats","PriceinGermany...","PriceinUK..."
+"","Name","Battery EV (kWh)","Acceleration(sec)","TopSpeed(km/h)","Range(km)","Efficiency(Wh/km)","FastChargeSpeed(km/h)","Drive","NumberofSeats","PriceinGermany()","PriceinUK(£)"
 "1","Tesla Roadster",200,2.1,410,970,206,920,"All Wheel Drive",4,215000,189000
 "2","Tesla Model X Plaid",90,2.6,262,455,198,680,"All Wheel Drive",7,116990,110980
 "3","Porsche Taycan Turbo S",83.7,2.8,260,390,215,860,"All Wheel Drive",4,186336,138830
