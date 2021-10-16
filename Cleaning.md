@@ -1,4 +1,5 @@
 # Download Library and dataset + Cleaning Data
+Dataset ที่ยังไม่ clean จะเป็นดังไฟล์นี้ : [Quickestelectriccars-EVDatabase.csv](Quickestelectriccars-EVDatabase.csv)
 
 ## Contents
 - Importing library
@@ -15,12 +16,7 @@
 4. ใช้ `assertive`
 
 ## Loading dataset
-
-แบบที่ 1 : โหลด [.csv]() มาไว้บนเครื่อง แล้วทำการอ้าง path
-```
-EV <- read.csv("C:\\Users\\ST\\Desktop\\IT2021\\INT214_Static-it\\027-Quickest-Electric-Cars\\Quickestelectriccars-EVDatabase.csv")
-```
-แบบที่ 2 : ใช้การ `read_csv` ผ่านทาง github โดยใช้ library readr ช่วย
+ใช้การ `read_csv` ผ่านทาง github โดยใช้ library readr ช่วย
 ```
 EV <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/027-Quickest-Electric-Cars/main/Quickestelectriccars-EVDatabase.csv")
 ```
@@ -79,9 +75,26 @@ EV <- EV %>% rename("PriceinUK(£)" = PriceinUK)
 
 ## Result
 หลังจากทำการ Clean data แล้ว จะได้ผลลัพธ์ของข้อมูลดังนี้
-|Column number|Column name|data type|
-|-----------|-----------|------------|
-|1|Name|character|
+|Column number|Old column name|New column name|Old data type|New data type|
+|-----------|-----------|------------|----------|-----------|
+|1|Name||character||
+|2|Subtitle|Battery EV (kWh)|char|number|
+|3|Acceleration| Acceleration(sec)|char|number|
+|4|Topspeed|TopSpeed(km/h)|char|number|
+|5|Range|Range(km)|char|number|
+|6|Efficiency|Efficiency(wh/km)|char|number|
+|7|FastChargeSpeed|FastChargeSpeed(km/h)|char|number|
+|8|Drive||char|factor|
+|9|PriceinGermany|PriceinGermany(€)|char|number|
+|10|PriceinUK|PriceinUK(£)|char|number|
+
+และได้ไฟล์ csv ที่ cleaned แล้ว ดังไฟล์นี้ [Cleaned-data.csv](Cleaned-data.csv)
+
+
+# R
+# Q
+# U
+
 
 
 
