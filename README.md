@@ -1,5 +1,6 @@
 # Group027-Quickest-Electric-Cars
 Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv)
+<<<<<<< HEAD
 ## Overview
     ข้อมูลชุดนี้เป็นข้อมูลเกี่ยวกับ Electric Vehicles หรือรถยนต์ไฟฟ้าของแต่ละรุ่นที่วางขายในตลาดของทวีปยุโรป เพื่อใช้เป็นข้อมูลในการวางแผนการลงทุนเทคโนโลยีด้านยานพาหนะที่มีประโยชน์ต่อสิ่งแวดล้อม
 ### Objective
@@ -23,6 +24,10 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 - R Studio Desktop
 - website kaggle
 - Visual studio
+=======
+
+## Objective
+>>>>>>> 5b736d39e73a6e1d00a564c6fbc1766299f43ea0
 
 ## Process
 ### Table of Contents
