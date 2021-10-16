@@ -1,5 +1,5 @@
 # Group027-Quickest-Electric-Cars
-Datasets from: [Quickest Electric Cars] (https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?fbclid=IwAR2qAD5u_SvDDAnT1wM5y_nGQHhiZ3yPnVCeyq1sk71HfE2aH_Qbjl9VPMY)
+Datasets from: [Quickest Electric Cars] (https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv)
 
 ## Objective
 
