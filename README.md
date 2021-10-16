@@ -25,15 +25,6 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 - website kaggle
 - Visual studio
 
-## Objective
-1. รถที่เก็บพลังงานไฟฟ้าได้มากหรือน้อยมีผลต่อระยะเวลาในการใช้งานไหม
-2. แบตเตอรี่ของรถส่งผลต่ออัตราการเร่งของรถหรือไม่
-3. การใช้ล้อในการเคลื่อนที่แบบใดมีประสิทธิภาพมากกว่ากัน
-4. ราคาที่ขายรถไฟฟ้าในประเทศเยอรมันและประเทศอังกฤษมีความแตกต่างกันเพียงใด
-5. Top speed ของรถไฟฟ้า
-6. ขนาดความจุของแบตเตอรี่มีผลต่อความสามารถในการชาร์จพลังงานหรือไม่
-
-
 ## Process
 ### Table of Contents
 1. [Download Library and dataset + Cleaning Data]()
