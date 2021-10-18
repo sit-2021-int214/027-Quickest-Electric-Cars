@@ -76,6 +76,7 @@ Orders %>% select(`Product ID`,Category,`Sub-Category`,`Product Name`) %>% disti
 Orders %>% group_by(Region) %>% select(Region,Sales) %>% summarise(Sum_price = sum(Sales)) %>% arrange(desc(Sum_price))
 
 #4.ลูกค้าคนใดมีการสั่งซื้อสินค้าแบบ First Class บ่อยที่สุด
-Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% tally(sort = TRUE)
+Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% tally(sort = TRUE) 
+
 
 
