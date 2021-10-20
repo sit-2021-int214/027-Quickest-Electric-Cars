@@ -62,7 +62,7 @@ Result
 - Front wheel drive มีรถที่ใช้ระเภทนี้อยู่ทั้งหมด 45 รุ่น
 
 
-### 4.) ราคาเฉลี่ยของรถในประเทศอังกฤษมีราคาสูงกว่าประเทศเยอรมันกี่ยูโร 
+### 4.) ราคาเฉลี่ยของรถในประเทศอังกฤษมีราคาสูงกว่าประเทศเยอรมันกี่ยูโร? 
 > (ถ้า 1 ปอนด์สเตอร์ลิง(£) = 1.19 ยูโร(€) //ใช้ข้อมูลที่ค้นหาในวันที่ 16 ตุลาคม 2021)
 
 Code
@@ -196,7 +196,7 @@ Result
 ```
 **Answer 7** : สรุปรวมเป็นตารางจัดอันดับได้ ดังนี้
 |top|Battery EV (kWh)|TopSpeed(km/h)|Range(km)|Efficiency(Wh/km)|FastChargeSpeed(km/h)|
-|---|---|-----|-----|----|---|
+|---|:---|:-----|:-----|:----|:---|
 |1|All Wheel Drive |All Wheel Drive |All Wheel Drive |Rear Wheel Drive|All Wheel Drive|
 |2|Rear Wheel Drive|Rear Wheel Drive|Rear Wheel Drive|Front Wheel Drive|Rear Wheel Drive|
 |3|Front Wheel Drive |Front Wheel Drive|Front Wheel Drive|All Wheel Drive|Front Wheel Drive|
