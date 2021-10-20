@@ -9,7 +9,7 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 |1|Name|ชื่อยี่ห้อและรุ่นของรถ|
 |2|Subtitle|ความจุแบตเตอรี่ของรถ|
 |3|Acceleration|อัตราการเร่ง เมื่อรถเปลี่ยนความเร็ว|
-|4||TopSpeed|ความเร็วสูงสุด|
+|4|TopSpeed|ความเร็วสูงสุด|
 |5|Range|ค่าระยะทางที่รถสามารถวิ่งได้ จนพลังงานนั้นหมด|
 |6|Efficiency|ค่าพลังงานทีใช้ไปต่อชั่วโมง|
 |7|Fast Charge Speed|ความเร็วในการชาร์จแบตเตอรี่|
