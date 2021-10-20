@@ -4,26 +4,26 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 ## Overview
 ข้อมูลชุดนี้เป็นข้อมูลเกี่ยวกับ Electric Vehicles หรือรถยนต์ไฟฟ้าของแต่ละรุ่นที่วางขายในตลาดของทวีปยุโรป เพื่อใช้เป็นข้อมูลในการวางแผนการลงทุนเทคโนโลยีด้านยานพาหนะที่มีประโยชน์ต่อสิ่งแวดล้อม
 โดยมีจำนวนข้อมูลทั้งหมด 179 ข้อมูล มีทั้งหมด 11 คอลัมน์ ได้แก่ 
-||Column Name|Column descirption|
-|----|---------|----------------|
-|1|Name|ชื่อยี่ห้อและรุ่นของรถ|
-|2|Subtitle|ความจุแบตเตอรี่ของรถ|
-|3|Acceleration|อัตราการเร่ง เมื่อรถเปลี่ยนความเร็ว|
-|4|TopSpeed|ความเร็วสูงสุด|
-|5|Range|ค่าระยะทางที่รถสามารถวิ่งได้ จนพลังงานนั้นหมด|
-|6|Efficiency|ค่าพลังงานทีใช้ไปต่อชั่วโมง|
-|7|Fast Charge Speed|ความเร็วในการชาร์จแบตเตอรี่|
-|8|Drive|ล้อที่ใช้ชับเคลื่อน|
-|9|Number of Seats|จำนวนที่นั่ง|
-|10|Price in Germany|ราคารถในประเทศเยอรมัน|
-|11|Price in UK|ราคาในประเทศอังกฤษ|
+||Column Name|Column descirption|Unit|Data type|
+|----|---------|--------------|-----|-------|
+|1|Name|ชื่อยี่ห้อและรุ่นของรถ||character|
+|2|Subtitle|ความจุแบตเตอรี่ของรถ|kwh|character|
+|3|Acceleration|อัตราการเร่ง เมื่อรถเปลี่ยนความเร็ว|sec|character|
+|4|TopSpeed|ความเร็วสูงสุด|km/h|character|
+|5|Range|ค่าระยะทางที่รถสามารถวิ่งได้ จนพลังงานนั้นหมด|km|character|
+|6|Efficiency|ค่าพลังงานทีใช้ไปต่อชั่วโมง|Wh/km|character|
+|7|Fast Charge Speed|ความเร็วในการชาร์จแบตเตอรี่|km/h|character|
+|8|Drive|รูปแบบล้อที่ใช้ขับเคลื่อน||character|
+|9|Number of Seats|จำนวนที่นั่ง||double|
+|10|Price in Germany|ราคารถในประเทศเยอรมัน|€(ยูโร)|character|
+|11|Price in UK|ราคาในประเทศอังกฤษ|£(ปอนด์สเตอร์ลิง)|character| 
 
 ### Steps
 1. Explore the dataset from the original dataset
 2. Define a question
 3. Download Library and dataset
 4. Data Cleaning and Data Transformation
-5. Exploratory Data Analysis
+5. Exploratory Data Analysis to find the answer
 
 ### Tools
 - Google docs
@@ -38,7 +38,7 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 
 ## Resources
 Important Files in Repository
-* clean-data.R : Data Cleaning and Data Transformation 
+* [Test-data.R](./R-code.R) : Data Cleaning and Data Transformation 
 * [Quickest Electric Cars](./Quickestelectriccars-EVDatabase.csv) : Original Dataset
 
 ## About Us

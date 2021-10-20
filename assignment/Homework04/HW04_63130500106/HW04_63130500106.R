@@ -78,5 +78,5 @@ Orders %>% group_by(Region) %>% select(Region,Sales) %>% summarise(Sum_price = s
 #4.ลูกค้าคนใดมีการสั่งซื้อสินค้าแบบ First Class บ่อยที่สุด
 Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% tally(sort = TRUE) 
 
-
+#5.เรียกดูชื่อประเภทของสินค้าและชื่อหมวดหมู่ย่อยของสินค้าทั้งหมดในแต่ละประเภท
 

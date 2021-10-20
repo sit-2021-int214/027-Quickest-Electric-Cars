@@ -2,32 +2,31 @@
 Dataset ที่ยังไม่ clean จะเป็นดังไฟล์นี้ : [Quickestelectriccars-EVDatabase.csv](Quickestelectriccars-EVDatabase.csv)
 
 ## Contents
-- Importing library
-- Loading dataset
-- Cleaning data
-- Changing factor
-- Renaming columns
-- Result
+1. Importing library
+2. Loading dataset
+3. Cleaning data
+4. Changing factor
+5. Renaming columns
+6. Result
 
-## Importing Library
-1. ใช้ `readr` เพื่อการ read_csv
-2. ใช้ `stringr` ในการ Clean data
-3. ใช้ `dplyr` ในการ explore dataset
-4. ใช้ `assertive`
+## 1. Importing Library
+- ใช้ `readr` เพื่อการ read_csv
+- ใช้ `stringr` ในการ Clean data
+- ใช้ `dplyr` ในการ explore dataset
+- ใช้ `assertive` ในการเช็ค 
 
-## Loading dataset
+## 2. Loading dataset
 ใช้การ `read_csv` ผ่านทาง github โดยใช้ library readr ช่วย
 ```
 EV <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/027-Quickest-Electric-Cars/main/Quickestelectriccars-EVDatabase.csv")
 ```
 
-## Cleaning Data
-ทำการแปลงข้อมูลต่างๆ ให้อยู๋ในรูปที่เหมาะสม
-โดยเนื่องจาก dataset ที่ได้มา มีความผิดพลาด + ต้อง clean มาก ทำให้ต้อง clean ในทุกๆ column ยกเว้น column Name และ Drive
+## 3. Cleaning Data
+ทำการแปลงข้อมูลต่างๆ ให้อยู่ในรูปที่เหมาะสม
+เนื่องจาก dataset ที่ได้มามีหน่วยต่อท้ายและมีความผิดพลาดมาก จึงต้อง clean ในทุกๆ column ยกเว้น column Name และ Drive
 ```
 #Clean Data
 EV$Subtitle <- EV$Subtitle %>% str_sub(start = 27) %>% str_remove("kWh")%>% str_trim() %>% as.numeric()
-EV$Acceleration <- EV$Acceleration %>% str_remove("sec") %>% str_trim() %>% as.numeric()
 EV$Acceleration <- EV$Acceleration %>% str_remove("sec") %>% str_trim() %>% as.numeric()
 EV$TopSpeed <- EV$TopSpeed %>% str_remove("km/h") %>% str_trim() %>% as.numeric()
 EV$Range <- EV$Range %>% str_remove("km") %>% str_trim() %>% as.numeric()
@@ -38,8 +37,8 @@ EV$PriceinUK <- EV$PriceinUK %>% str_remove("£") %>% str_trim()  %>% str_remove
 
 ```
 
-## Changing factor
-ใน Column Drive มีข้อมูลเพียงแค่ 3 ตัว ได้แก่
+## 4.Changing factor
+ใน Column Drive มีข้อมูลเพียงแค่ 3 ชนิด ได้แก่
 - All Wheel Drive
 - Rear Wheel Drive
 - Front Wheel Drive
@@ -48,7 +47,7 @@ EV$PriceinUK <- EV$PriceinUK %>% str_remove("£") %>% str_trim()  %>% str_remove
 EV$Drive <- as.factor(EV$Drive)
 ```
 
-## Renaming Columns
+## 5.Renaming Columns
 ทำการเปลี่ยนชื่อ Column
 - เพื่อให้สื่อความหมายมากขึ้น ได้แก่ Column Subtitle ให้เป็น Battery EV (kWh)  เพื่อให้สื่อถึงความจุแบตเตอร์รี่ของรถ
 ```
@@ -73,7 +72,7 @@ EV <- EV %>% rename("PriceinGermany(€)" = PriceinGermany)
 EV <- EV %>% rename("PriceinUK(£)" = PriceinUK)
 ```
 
-## Result
+## 6.Result
 หลังจากทำการ Clean data แล้ว จะได้ผลลัพธ์ของข้อมูลดังนี้
 |Column number|Old column name|New column name|Old data type|New data type|
 |-----------|-----------|------------|----------|-----------|
@@ -89,13 +88,6 @@ EV <- EV %>% rename("PriceinUK(£)" = PriceinUK)
 |10|PriceinUK|PriceinUK(£)|char|number|
 
 และได้ไฟล์ csv ที่ cleaned แล้ว ดังไฟล์นี้ [Cleaned-data.csv](Cleaned-data.csv)
-
-
-# R
-# Q
-# U
-
-
 
 
 
