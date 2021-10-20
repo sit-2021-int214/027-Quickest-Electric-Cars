@@ -194,6 +194,7 @@ Result
 ```
 **Answer 7** : สรุปรวมเป็นตารางจัดอันดับได้ ดังนี้
 |top|Battery EV (kWh)|TopSpeed(km/h)|Range(km)|Efficiency(Wh/km)|FastChargeSpeed(km/h)|
+|---|---|-----|-----|----|---|
 |1|All Wheel Drive |All Wheel Drive |All Wheel Drive |Rear Wheel Drive|All Wheel Drive|
 |2|Rear Wheel Drive|Rear Wheel Drive|Rear Wheel Drive|Front Wheel Drive|Rear Wheel Drive|
 |3|Front Wheel Drive |Front Wheel Drive|Front Wheel Drive|All Wheel Drive|Front Wheel Drive|
