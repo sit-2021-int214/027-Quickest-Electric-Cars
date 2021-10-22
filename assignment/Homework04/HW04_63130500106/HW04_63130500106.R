@@ -1,8 +1,11 @@
 # Import library
-library(DescTools)  #exploring data
 library(readr)      #read .csv file
 library(dplyr)      #for use %>% function 
+library(DescTools)  #use some function find Year from Date column
+library(forcats)    
+library(stringr)    #rename column
 library(ggplot2)    #use plot graph
+library(scales)     #use find percent
 
 #Import dataset
 Orders <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/027-Quickest-Electric-Cars/main/assignment/Homework04/HW04_63130500106/train.csv")
@@ -11,41 +14,10 @@ Orders <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/027-Quicke
 View(Orders)
 glimpse(Orders)
 
-#*****PART2*****
-#*dplyr package
-#select : ใช้เลือก column
-Orders %>% select(`Product ID`,Category,`Sub-Category`,`Product Name`)
-#glimpse : ดูภาพรวมของข้อมูลเบื้องต้น เช่น จำนวนข้อมูล, ชื่อ column, data type, ต้วอย่างข้อมูลแต่ละ column
-glimpse(Orders)
-#count : นับจำนวนข้อมูล
-Orders %>% count()
-Orders %>% count(Segment=="Consumer")
-#filter : ใช้คัดเลือกข้อมูลเฉพาะบาง row
-Orders %>% filter(`Ship Mode`=="First Class")
-#arrange : เรียงลำดับข้อมูลใน column
-Orders %>% arrange(Sales) #เรียงตามราคา จากน้อยไปมาก
-Orders<-Orders %>% arrange(desc(Sales)) #เรียงตามราคา จากมากไปน้อย
-#group_by : จัดกลุ่มข้อมูล
-#group_keys : ดูชื่อของแต่ละกลุ่ม
-Orders %>% group_by(Region) %>% group_keys()
-#tally : นับจำนวนข้อมูลของแต่ละกลุ่ม
-Orders %>% group_by(Region) %>% tally(sort = TRUE)
-#distinct : ตัดข้อมูลที่ซ้ำกันออก
-Orders %>% select(`Customer Name`,Country,City,State) %>% distinct()
-#rename : เปลี่ยนชื่อ column
-Orders %>% rename("TotalPrice" = Sales)
-#sumerise
-
-
-
-#****PART3*****
 #Data Cleanning 
-#check ข้อที่ซ้ำกัน
-products %>% duplicated() #ไม่มี
-
 #Changing the types of values
-Orders$`Order Date`<-as.Date(Orders$`Order Date`)
-Orders$`Ship Date`<-as.Date(Orders$`Ship Date`)
+Orders$`Order Date`<-as.Date(Orders$`Order Date`,format = "%d/%m/%Y")
+Orders$`Ship Date`<-as.Date(Orders$`Ship Date`,format = "%d/%m/%Y")
 Orders$`Ship Mode`<-as.factor(Orders$`Ship Mode`)
 Orders$Segment<-as.factor(Orders$Segment)
 Orders$Country<-as.factor(Orders$Country)
@@ -56,16 +28,53 @@ Orders$Category<-as.factor(Orders$Category)
 Orders$`Sub-Category`<-as.factor(Orders$`Sub-Category`)
 
 #Exploratory Data Analysis 
-summary(Orders$`Ship Mode`)
-summary(Orders$Segment)
-summary(Orders$Country)
-summary(Orders$City)
-summary(Orders$State)
-summary(Orders$Region)
-summary(Orders$Category)
-summary(Orders$`Sub-Category`)
+table(Orders$`Ship Mode`)
+table(Orders$Segment)
+table(Orders$Country)
+table(Orders$City)
+table(Orders$State)
+table(Orders$Region)
+table(Orders$Category)
+table(Orders$`Sub-Category`)
 
-#1.ประเทศใดมีการสั่งซื้อชุดข้อมูลนี้มากที่สุด
+#*****PART2***** Safe Learning
+#*dplyr package
+#group_by : จัดกลุ่มข้อมูล
+#group_keys : ดูชื่อของแต่ละกลุ่ม
+#tally : นับจำนวนข้อมูลของแต่ละกลุ่ม
+Orders %>% group_by(Region) %>% group_keys()
+Orders %>% group_by(Region) %>% tally(sort = TRUE)
+
+#*forcats package
+#fct_infreq : ใช้การจัดลำดับข้อมูลตามความถี่
+Orders %>%
+  mutate(state = fct_infreq(State)) %>%
+  count(state)
+        
+#*ggplot2 package
+#theme_dark : ปรับพื้นหลังกราฟเป็นสีเข้ม
+#coord_flip : ใช้สลับแกน x กับแกน y
+Orders %>%
+  ggplot(aes(x = `Sub-Category`)) + 
+  geom_bar(fill="yellow") + 
+  theme_dark()+
+  coord_flip()
+#theme_void : เอาพื้นหลังกราฟออก
+#coord_polar : ทำเป็นกราฟวงกลม
+#geom_text : เพิ่มข้อความบนกราฟ
+Orders %>%
+  ggplot(aes(x = `Sub-Category`,fill= Category)) + 
+  geom_bar(width = 1, colour = "black")+
+  coord_polar()
+  geom_text(aes(label = percent(count/sum(count))),
+          position = position_stack(vjust = 0.5))
+
+
+#****PART3*****
+#0.เช็คค่าNA
+summary(is.na(Orders))
+
+#1.ประเทศใดมีการสั่งซื้อมากที่สุดในชุดข้อมูลนี้
 Orders$Country<-as.factor(Orders$Country)
 summary(Orders$Country)
 
@@ -76,7 +85,58 @@ Orders %>% select(`Product ID`,Category,`Sub-Category`,`Product Name`) %>% disti
 Orders %>% group_by(Region) %>% select(Region,Sales) %>% summarise(Sum_price = sum(Sales)) %>% arrange(desc(Sum_price))
 
 #4.ลูกค้าคนใดมีการสั่งซื้อสินค้าแบบ First Class บ่อยที่สุด
-Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% tally(sort = TRUE) 
+Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% tally(sort = TRUE) %>% head(1)
 
-#5.เรียกดูชื่อประเภทของสินค้าและชื่อหมวดหมู่ย่อยของสินค้าทั้งหมดในแต่ละประเภท
+#5.จัดอันดับหมวดหมู่สินค้าย่อยที่มียอดการสั่งซื้อบ่อยครั้งมากที่สุด 10 อันดับ
+Orders %>% select(Category,`Sub-Category`) %>% 
+  group_by(`Sub-Category`,Category) %>% tally(sort = TRUE) %>% rename(count=n) %>% head(5)
+
+#6.จงหายอดขายของแต่ละปี
+Orders %>% 
+  mutate(year = Year(Orders$`Order Date`)) %>% 
+  group_by(year) %>% summarise(Sum_price = sum(Sales)) %>% arrange(year)
+
+
+#****PART4*****
+#1.กราฟแสดงสัดส่วนของประเภทลูกค้าที่เคยสั่งซื้อสินค้าในช่วง 4 ปีที่ผ่านมา
+group_segment <- data.frame(table(Orders$Segment))
+group_segment <- group_segment %>% rename("segment"=Var1,"count"=Freq)
+
+group_segment %>% 
+  ggplot(aes(x="",y=count,fill=segment)) + 
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0)+
+  theme_void() +
+  geom_text(aes(label = percent(count/sum(count))),
+                position = position_stack(vjust = 0.5))
+  
+#2.กราฟแสดงความถี่ในการสั่งซื้อของของลูกค้า ในแต่ละช่วงราคา
+SalePrice <- Orders %>% select(Sales)
+col1<-table(cut(SalePrice$Sales,breaks=seq(from=0.0,to=10000,by=100)))
+col2<-data.frame(col1)
+col2<-col2 %>% rename("Range"=Var1)
+
+col2 %>% filter(Freq > 50) %>%
+  ggplot(aes(x=Range,y=Freq))+ 
+  geom_bar(fill="#add8e6",stat = "identity")+
+  coord_flip()+
+  geom_text(aes(label = Freq), position = position_identity())
+
+#3.กราฟแสดงยอดรวมราคาสินค้าที่สั่งซื้อในแต่ละปี
+totalPrice_year <- Orders %>% 
+  mutate(year = Year(Orders$`Order Date`)) %>% 
+  group_by(year) %>% summarise(Sum_price = sum(Sales)) %>% arrange(year)
+
+totalPrice_year %>%
+  ggplot(aes(x=year,y=Sum_price))+ 
+  geom_bar(fill="#228B22",stat = "identity") +
+  geom_text(aes(label = Sum_price), position = position_identity()) + 
+  coord_flip()+
+  theme_light()+
+  ggtitle("Total price each year of SaleStore")+
+  xlab("Years") + ylab("Total price")
+
+
+
+  
 
