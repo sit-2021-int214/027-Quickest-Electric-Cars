@@ -91,7 +91,7 @@ Orders %>% filter(`Ship Mode`=="First Class") %>% group_by(`Customer Name`) %>% 
 Orders %>% select(Category,`Sub-Category`) %>% 
   group_by(`Sub-Category`,Category) %>% tally(sort = TRUE) %>% rename(count=n) %>% head(5)
 
-#6.จงหายอดขายของแต่ละปี
+#6.จงหายอดขายสินค้าของแต่ละปี
 Orders %>% 
   mutate(year = Year(Orders$`Order Date`)) %>% 
   group_by(year) %>% summarise(Sum_price = sum(Sales)) %>% arrange(year)
