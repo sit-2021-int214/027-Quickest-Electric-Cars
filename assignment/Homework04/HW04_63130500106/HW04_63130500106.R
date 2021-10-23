@@ -56,19 +56,22 @@ Orders %>%
 #coord_flip : ใช้สลับแกน x กับแกน y
 Orders %>%
   ggplot(aes(x = `Sub-Category`)) + 
-  geom_bar(fill="yellow") + 
+  geom_bar(fill="blue") + 
   theme_dark()+
   coord_flip()
 #theme_void : เอาพื้นหลังกราฟออก
 #coord_polar : ทำเป็นกราฟวงกลม
-#geom_text : เพิ่มข้อความบนกราฟ
-Orders %>%
-  ggplot(aes(x = `Sub-Category`,fill= Category)) + 
-  geom_bar(width = 1, colour = "black")+
-  coord_polar()
-  geom_text(aes(label = percent(count/sum(count))),
-          position = position_stack(vjust = 0.5))
+#geom_text : เพิ่มข้อมูลบนรูปกราฟ
+totalPrice_year <- Orders %>% 
+  mutate(year = Year(Orders$`Order Date`)) %>% 
+  group_by(year) %>% summarise(Sum_price = sum(Sales)) %>% arrange(year)
 
+totalPrice_year %>%
+  ggplot(aes(x=year,y=Sum_price))+ 
+  geom_bar(stat = "identity") +
+  theme_void()+
+  coord_polar()+
+  geom_text(aes(label = Sum_price), position = position_identity())
 
 #****PART3*****
 #0.เช็คค่าNA
