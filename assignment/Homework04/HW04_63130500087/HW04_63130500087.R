@@ -14,6 +14,7 @@ View(Books)
 glimpse(Books)
 
 ##------------------------Tidyverse uses------------------
+##------------------------In class syntax------------------
 
 #Clean data column "Type"
 Books$Type <- Books$Type %>% str_remove("Boxed Set -") %>% str_trim()
@@ -65,6 +66,9 @@ cols_condense(Books)
 
 #spec
 spec(Books)
+
+#write csv
+write.csv(Books,"BookCleaned", row.names = FALSE)
 
 
 
