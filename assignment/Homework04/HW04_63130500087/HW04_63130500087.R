@@ -70,7 +70,28 @@ spec(Books)
 #write csv
 write.csv(Books,"BookCleaned", row.names = FALSE)
 
+##--------------Visualization graph------------------
 
+#Graph show relation between Number of page, price and types of books
+books_scat <- Books %>% ggplot(aes(x=Number_Of_Pages,y=Price)) + 
+  geom_point(size = 1)
+#Adding component
+books_scat <- books_scat + ggtitle("Relation between page and price")
+##Play with the decoration
+books_scat <- books_scat + theme_light() + 
+  theme(panel.grid = element_line(color = "#bfc3d6",
+                                  size = 1,
+                                  linetype = "dashed"))
+#Result
+books_scat
 
+#boxplot
+books_box <- Books %>% ggplot(aes(x=Rating)) + geom_boxplot()
+#Adding component
+books_box <- books_box + ggtitle("Boxplot of Rating of the book")
+##Play with the decoration
+books_box <- books_box + theme_light() 
+#Result
+books_box
 
 
