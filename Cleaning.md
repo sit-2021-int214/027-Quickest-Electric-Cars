@@ -1,5 +1,5 @@
 # Download Library and dataset + Cleaning Data
-Dataset ที่ยังไม่ clean จะเป็นดังไฟล์นี้ : [Quickestelectriccars-EVDatabase.csv](Quickestelectriccars-EVDatabase.csv)
+Dataset ที่ยังไม่ clean จะเป็นดังไฟล์นี้ : [Quickest Electric Cars-EVDatabase.csv](Quickestelectriccars-EVDatabase.csv)
 
 ## Contents
 - Importing library
@@ -91,9 +91,6 @@ EV <- EV %>% rename("PriceinUK(£)" = PriceinUK)
 และได้ไฟล์ csv ที่ cleaned แล้ว ดังไฟล์นี้ [Cleaned-data.csv](Cleaned-data.csv)
 
 
-# R
-# Q
-# U
 
 
 

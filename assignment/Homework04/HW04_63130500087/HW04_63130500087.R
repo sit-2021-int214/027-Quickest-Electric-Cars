@@ -2,8 +2,10 @@
 library(DescTools) # For better use in exploring data + more function
 library(readr) #for reading csv
 library(stringr) #in case of changing of data format
-library(dplyr) #for %>% uses
+library(dplyr) #for %>% uses etc.
 library(ggplot2) #for plotting graph
+library(tidyr)
+library(tibble)
 
 #Importing dataset
 Books <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/027-Quickest-Electric-Cars/main/assignment/Homework04/HW04_63130500087/data.csv")
