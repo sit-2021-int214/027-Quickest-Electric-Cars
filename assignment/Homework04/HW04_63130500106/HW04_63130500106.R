@@ -139,7 +139,6 @@ totalPrice_year %>%
   ggtitle("Total price each year of SaleStore")+
   xlab("Years") + ylab("Total price")
 
-
-
   
-
+Orders %>% 
+  group_by(City) %>% summarise(Sum_price = sum(Sales)) %>% arrange(desc(Sum_price))
