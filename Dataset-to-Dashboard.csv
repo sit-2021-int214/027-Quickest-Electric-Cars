@@ -1,0 +1,180 @@
+Name,Battery EV (kWh),Acceleration(sec),TopSpeed(km/h),Range(km),Efficiency(Wh/km),FastChargeSpeed(km/h),Drive,NumberofSeats,PriceinGermany(€),PriceinUK(£)
+Tesla Roadster,200,2.1,410,970,206,920,All Wheel Drive,4,215000,189000
+Tesla Model X Plaid,90,2.6,262,455,198,680,All Wheel Drive,7,116990,110980
+Porsche Taycan Turbo S,83.7,2.8,260,390,215,860,All Wheel Drive,4,186336,138830
+Porsche Taycan Turbo S Cross Turismo,83.7,2.9,250,380,220,790,All Wheel Drive,4,187746,139910
+Tesla Cybertruck Tri Motor,200,3,210,750,267,710,All Wheel Drive,7,75000,68000
+Lucid Air Grand Touring,110,3.2,270,660,167,1380,All Wheel Drive,5,140000,125000
+Tesla Model S Long Range,90,3.2,250,555,162,830,All Wheel Drive,5,86990,83980
+Porsche Taycan Turbo,83.7,3.2,260,400,209,840,All Wheel Drive,4,153016,115860
+Tesla Model 3 Performance,76,3.3,261,470,162,790,All Wheel Drive,5,58560,59990
+Audi e-tron GT RS,85,3.3,250,405,210,810,All Wheel Drive,4,138200,110950
+Porsche Taycan Turbo Cross Turismo,83.7,3.3,250,385,217,800,All Wheel Drive,4,154444,116950
+Lucid Air Touring,85,3.4,250,530,160,1390,All Wheel Drive,5,95000,90000
+Kia EV6 GT,77.4,3.5,260,395,196,920,All Wheel Drive,5,65990,58295
+Tesla Model Y Performance,76,3.7,241,430,177,720,All Wheel Drive,7,66965,60000
+Tesla Model X Long Range,90,3.9,250,475,189,710,All Wheel Drive,7,95990,90980
+BMW i4 M50,80.7,3.9,225,450,179,630,All Wheel Drive,5,69900,63905
+Porsche Taycan 4S,71,4,250,375,189,750,All Wheel Drive,4,106487,83580
+Porsche Taycan 4S Plus,83.7,4,250,435,192,910,All Wheel Drive,4,113008,88193
+Audi e-tron GT quattro,85,4.1,245,420,202,840,All Wheel Drive,4,99800,79900
+Porsche Taycan 4S Cross Turismo,83.7,4.1,240,405,207,850,All Wheel Drive,4,111842,87820
+Lucid Air Pure,85,4.2,200,540,157,1410,Rear Wheel Drive,5,80000,70000
+Mercedes EQS 580 4MATIC,107.8,4.3,210,610,177,800,All Wheel Drive,5,135529,115000
+Tesla Model 3 Long Range Dual Motor,70,4.4,233,455,154,570,All Wheel Drive,5,,48490
+Ford Mustang Mach-E GT,88,4.4,200,410,215,400,All Wheel Drive,5,,67225
+Tesla Model 3 Long Range Dual Motor,76,4.4,233,490,155,820,All Wheel Drive,5,53560,
+Audi e-tron S 55 quattro,86.5,4.5,210,320,270,510,All Wheel Drive,5,93800,87000
+Audi e-tron S Sportback 55 quattro,86.5,4.5,210,335,258,540,All Wheel Drive,5,96050,88700
+BMW iX xDrive50,105.2,4.6,200,505,208,620,All Wheel Drive,5,98000,91905
+Volvo C40 Recharge,75,4.7,180,340,221,440,All Wheel Drive,5,62050,57400
+Polestar 2 Long Range Dual Motor,75,4.7,205,395,190,510,All Wheel Drive,5,52500,45900
+Jaguar I-Pace EV400,84.7,4.8,200,365,232,340,All Wheel Drive,5,77300,65195
+MG Marvel R Performance,65,4.9,200,330,197,380,All Wheel Drive,5,50000,
+Volvo XC40 Recharge Twin Pure Electric,75,4.9,180,340,221,440,All Wheel Drive,5,59250,49950
+Tesla Cybertruck Dual Motor,120,5,190,460,261,710,All Wheel Drive,7,55000,48000
+Nissan Ariya e-4ORCE 87kWh Performance,87,5.1,200,385,226,460,All Wheel Drive,5,65000,57500
+Mercedes EQC 400 4MATIC,80,5.1,180,370,216,440,All Wheel Drive,5,66069,65720
+Tesla Model Y Long Range Dual Motor,76,5.1,217,450,169,750,All Wheel Drive,7,59965,54000
+Porsche Taycan 4 Cross Turismo,83.7,5.1,220,405,207,850,All Wheel Drive,4,93635,79340
+Hyundai IONIQ 5 Project 45,72.6,5.2,185,370,196,860,All Wheel Drive,5,59550,48000
+Hyundai IONIQ 5 Long Range AWD,72.6,5.2,185,375,194,870,All Wheel Drive,5,48900,45145
+Porsche Taycan,71,5.4,230,395,180,790,Rear Wheel Drive,4,83520,70690
+Porsche Taycan Plus,83.7,5.4,230,460,182,960,Rear Wheel Drive,4,89244,74739
+Kia EV6 Long Range AWD,77.4,5.4,185,410,189,950,All Wheel Drive,5,56000,52000
+Byton M-Byte 95 kWh 4WD,95,5.5,190,390,244,460,All Wheel Drive,5,64000,60000
+Tesla Model 3 Standard Range Plus LFP,51,5.6,225,340,150,570,Rear Wheel Drive,5,43560,40990
+Tesla Model 3 Standard Range Plus,50,5.6,225,340,147,680,Rear Wheel Drive,5,43560,40990
+Nissan Ariya e-4ORCE 87kWh,87,5.7,200,420,207,500,All Wheel Drive,5,57500,52500
+Audi e-tron 55 quattro,86.5,5.7,200,365,237,590,All Wheel Drive,5,81500,
+Audi e-tron Sportback 55 quattro,86.5,5.7,200,375,231,600,All Wheel Drive,5,83750,
+Audi e-tron Sportback 55 quattro,86.5,5.7,200,375,231,600,All Wheel Drive,5,,79900
+BMW i4 eDrive40,80.7,5.7,190,475,170,660,Rear Wheel Drive,5,58300,51905
+Audi e-tron 55 quattro,86.5,5.7,200,365,237,590,All Wheel Drive,5,,71500
+Ford Mustang Mach-E ER AWD,88,5.8,180,420,210,410,All Wheel Drive,5,62900,57030
+Nissan Ariya e-4ORCE 63kWh,63,5.9,200,325,194,440,All Wheel Drive,5,50000,45000
+Mercedes EQA 350 4MATIC,66.5,6,160,350,190,420,All Wheel Drive,5,56216,
+BMW iX xDrive40,71,6.1,200,350,203,470,All Wheel Drive,5,77300,69905
+Hyundai IONIQ 5 Standard Range AWD,58,6.1,185,305,190,710,All Wheel Drive,5,45700,
+Skoda Enyaq iV RS,77,6.2,180,395,195,480,All Wheel Drive,5,50000,45000
+Mercedes EQS 450+,107.8,6.2,210,640,168,840,Rear Wheel Drive,5,106374,95000
+Audi Q4 e-tron 50 quattro,76.6,6.2,180,385,199,470,All Wheel Drive,5,53600,51370
+Audi Q4 Sportback e-tron 50 quattro,76.6,6.2,180,400,192,490,All Wheel Drive,5,55600,52870
+Volkswagen ID.4 GTX,77,6.2,180,400,193,490,All Wheel Drive,5,50415,55540
+Ford Mustang Mach-E SR AWD,68,6.3,180,330,206,360,All Wheel Drive,5,54000,46650
+Mercedes EQB 350 4MATIC,66.5,6.5,160,340,196,400,All Wheel Drive,7,60000,50000
+CUPRA Born 170 kW - 62 kWh,58,6.6,160,345,168,430,Rear Wheel Drive,5,39000,31500
+BMW iX3,74,6.8,180,385,192,520,Rear Wheel Drive,5,66300,58850
+Audi e-tron 50 quattro,64.7,6.8,190,280,231,470,All Wheel Drive,5,69100,60600
+Audi e-tron Sportback 50 quattro,64.7,6.8,190,295,219,490,All Wheel Drive,5,71350,69100
+Skoda Enyaq iV 80X,77,6.9,160,405,190,500,All Wheel Drive,5,47000,42000
+BMW i3s 120 Ah,37.9,6.9,160,230,165,260,Rear Wheel Drive,4,42600,32305
+Ford Mustang Mach-E SR RWD,68,6.9,180,345,197,380,Rear Wheel Drive,5,46900,41330
+Audi Q4 e-tron 45 quattro,76.6,6.9,180,385,199,470,All Wheel Drive,5,50900,
+Ford Mustang Mach-E ER RWD,88,7,180,440,200,430,Rear Wheel Drive,5,54475,49980
+Tesla Cybertruck Single Motor,100,7,180,390,256,740,Rear Wheel Drive,7,45000,39000
+CUPRA Born 170 kW - 82 kWh,77,7,160,450,171,550,Rear Wheel Drive,5,43000,42000
+Volkswagen ID.3 Pro Performance,58,7.3,160,350,166,440,Rear Wheel Drive,5,36495,29740
+Opel Ampera-e,58,7.3,150,335,173,210,Front Wheel Drive,5,42990,
+Nissan Leaf e+,56,7.3,157,325,172,390,Front Wheel Drive,5,38350,30445
+BMW i3 120 Ah,37.9,7.3,150,235,161,270,Rear Wheel Drive,4,39000,31305
+Mini Cooper SE,28.9,7.3,150,185,156,260,Front Wheel Drive,4,32500,26000
+CUPRA Born 150 kW - 62 kWh,58,7.3,160,350,166,440,Rear Wheel Drive,5,36770,30500
+Hyundai IONIQ 5 Long Range 2WD,72.6,7.4,185,385,189,890,Rear Wheel Drive,5,45100,41945
+Polestar 2 Standard Range Single Motor,61,7.4,160,350,174,450,Front Wheel Drive,5,46500,39900
+Polestar 2 Long Range Single Motor,75,7.4,160,425,176,550,Front Wheel Drive,5,49500,42900
+Nissan Ariya 63kWh,63,7.5,160,335,188,450,Front Wheel Drive,5,45000,40000
+Kia EV6 Long Range 2WD,77.4,7.5,185,420,184,980,Rear Wheel Drive,5,54990,48000
+Byton M-Byte 72 kWh 2WD,72,7.5,190,325,222,420,Rear Wheel Drive,5,53500,50000
+Lexus UX 300e,50,7.5,160,260,192,150,Front Wheel Drive,5,47550,43900
+Aiways U5,63,7.5,150,335,188,350,Front Wheel Drive,5,35993,
+Byton M-Byte 95 kWh 2WD,95,7.5,190,400,238,480,Rear Wheel Drive,5,62000,57500
+Nissan Ariya 87kWh,87,7.6,160,445,196,530,Front Wheel Drive,5,50000,45000
+MG MG5 EV,48.8,7.7,185,295,165,340,Front Wheel Drive,5,,25095
+Mercedes EQA 300 4MATIC,66.5,7.7,160,350,190,420,All Wheel Drive,5,53538,
+MG MG5 EV Long Range,57,7.7,185,340,168,340,Front Wheel Drive,5,,26495
+Kia e-Niro 64 kWh,64,7.8,167,370,173,350,Front Wheel Drive,5,39090,32445
+Kia e-Soul 64 kWh,64,7.9,167,370,173,350,Front Wheel Drive,5,37790,
+Nissan Leaf,36,7.9,144,220,164,230,Front Wheel Drive,5,29990,25995
+Kia e-Soul 64 kWh,64,7.9,167,370,173,350,Front Wheel Drive,5,,37545
+Hyundai Kona Electric 64 kWh,64,7.9,167,395,162,370,Front Wheel Drive,5,41850,32550
+Volkswagen ID.3 Pro S,77,7.9,160,450,171,550,Rear Wheel Drive,4,41995,38800
+Hyundai Kona Electric 64 kWh,64,7.9,167,395,162,370,Front Wheel Drive,5,41850,
+MG Marvel R,65,7.9,200,340,191,390,Rear Wheel Drive,5,40000,
+Renault Megane E-Tech Electric,60,8,160,335,179,480,Front Wheel Drive,5,38000,32500
+Peugeot e-208,45,8.1,150,275,164,370,Front Wheel Drive,5,30450,27225
+Opel Corsa-e,45,8.1,150,275,164,370,Front Wheel Drive,5,29000,27140
+MG ZS EV,42.5,8.2,140,220,193,260,Front Wheel Drive,5,31990,25995
+MG MG5 Electric,57,8.3,180,340,168,440,Front Wheel Drive,5,35000,
+Honda e Advance,28.5,8.3,145,170,168,190,Rear Wheel Drive,4,38000,30160
+Volkswagen ID.4 Pro Performance,77,8.5,160,410,188,500,Rear Wheel Drive,5,44450,41570
+Peugeot e-2008 SUV,45,8.5,150,250,180,330,Front Wheel Drive,5,35450,30730
+Hyundai IONIQ 5 Standard Range 2WD,58,8.5,185,310,187,720,Rear Wheel Drive,5,41900,36995
+Kia EV6 Standard Range 2WD,58,8.5,185,320,181,740,Rear Wheel Drive,5,44990,40985
+Audi Q4 e-tron 40,76.6,8.5,160,405,189,500,Rear Wheel Drive,5,47500,44990
+Audi Q4 Sportback e-tron 40,76.6,8.5,160,425,180,520,Rear Wheel Drive,5,49500,
+Volkswagen ID.4 1st,77,8.5,160,410,188,500,Rear Wheel Drive,5,,40800
+Opel Mokka-e,45,8.5,150,255,176,340,Front Wheel Drive,5,34110,30540
+Skoda Enyaq iV 80,77,8.6,160,420,183,510,Rear Wheel Drive,5,43950,39350
+DS 3 Crossback E-Tense,45,8.7,150,250,180,330,Front Wheel Drive,5,30040,31500
+Skoda Enyaq iV 60,58,8.7,160,330,176,420,Rear Wheel Drive,5,38850,31995
+Seres 3,52,8.9,155,270,193,390,Front Wheel Drive,5,,
+Volkswagen ID.3 Pure Performance,45,8.9,160,275,164,260,Rear Wheel Drive,5,31960,27120
+Mercedes EQA 250,66.5,8.9,160,355,187,420,Front Wheel Drive,5,47541,43495
+CUPRA Born 110 kW - 55 kWh,45,8.9,160,275,164,440,Rear Wheel Drive,5,32700,28500
+Fiat 500e Hatchback 42 kWh,37.3,9,150,250,149,420,Front Wheel Drive,4,27560,23995
+Audi Q4 Sportback e-tron 35,51.5,9,160,295,175,410,Rear Wheel Drive,5,43900,42250
+Fiat 500e 3+1,37.3,9,150,245,152,410,Front Wheel Drive,4,29560,
+Sono Sion,47,9,140,260,181,310,Front Wheel Drive,5,25500,
+Volkswagen ID.4 Pure Performance,52,9,160,285,182,410,Rear Wheel Drive,5,38450,36030
+Honda e,28.5,9,145,170,168,190,Rear Wheel Drive,4,33850,27660
+Audi Q4 e-tron 35,51.5,9,160,280,184,390,Rear Wheel Drive,5,41900,40750
+Fiat 500e Cabrio,37.3,9,150,245,152,410,Front Wheel Drive,4,30560,26645
+Fiat 500e Hatchback 24 kWh,23.8,9.5,135,165,144,260,Front Wheel Drive,4,23560,20495
+Renault Zoe ZE50 R135,52,9.5,140,310,168,230,Front Wheel Drive,5,33990,28795
+Volkswagen ID.3 Pro,58,9.6,160,350,166,440,Rear Wheel Drive,5,34995,28420
+Citroen e-C4,45,9.7,150,250,180,330,Front Wheel Drive,5,34640,30895
+Hyundai IONIQ Electric,38.3,9.7,165,250,153,220,Front Wheel Drive,5,35350,30550
+Mazda MX-30,30,9.7,140,170,176,180,Front Wheel Drive,5,34490,26045
+Kia e-Niro 39 kWh,39.2,9.8,155,235,167,230,Front Wheel Drive,5,35290,30345
+Kia e-Soul 39 kWh,39.2,9.9,157,230,170,220,Front Wheel Drive,5,33990,
+Hyundai Kona Electric 39 kWh,39.2,9.9,155,250,157,210,Front Wheel Drive,5,35650,27950
+Hyundai Kona Electric 39 kWh,39.2,9.9,155,250,157,210,Front Wheel Drive,5,34850,
+Lightyear One,60,10,150,575,104,540,All Wheel Drive,5,149000,
+Volkswagen ID.4 Pure,52,10.9,160,285,182,410,Rear Wheel Drive,5,36950,32150
+Skoda Enyaq iV 50,52,11.3,160,295,176,240,Rear Wheel Drive,5,33800,
+Renault Zoe ZE50 R110,52,11.4,135,315,165,230,Front Wheel Drive,5,31990,26795
+Renault Zoe ZE40 R110,41,11.4,135,255,161,230,Front Wheel Drive,5,29990,
+Smart EQ fortwo coupe,16.7,11.6,130,100,167,,Rear Wheel Drive,2,18460,19200
+Peugeot e-Rifter Standard 50 kWh,45,11.7,135,200,225,270,Front Wheel Drive,7,37590,30375
+Peugeot e-Rifter Long 50 kWh,45,11.7,135,195,231,260,Front Wheel Drive,7,42590,32455
+Volkswagen e-Up!,32.3,11.9,130,205,158,170,Front Wheel Drive,4,,
+Smart EQ fortwo cabrio,16.7,11.9,130,95,176,,Rear Wheel Drive,2,21720,21620
+JAC iEV7s,39,12,132,225,173,160,Front Wheel Drive,5,,
+Mercedes EQV 300 Extra-Long,90,12.1,160,320,281,280,Front Wheel Drive,7,72281,
+Citroen e-SpaceTourer XS 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,50880,
+Citroen e-SpaceTourer M 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,51440,31995
+Citroen e-SpaceTourer XL 50 kWh,45,12.1,130,180,250,240,Front Wheel Drive,7,52230,
+Opel Zafira-e Life S 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,56700,
+Opel Zafira-e Life M 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,53800,
+Opel Zafira-e Life L 50 kWh,45,12.1,130,180,250,240,Front Wheel Drive,7,54625,49465
+Peugeot e-Traveller Compact 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,50880,
+Mercedes EQV 300 Long,90,12.1,160,320,281,280,Front Wheel Drive,7,71388,70665
+Toyota PROACE Verso M 50 kWh,45,12.1,130,185,243,250,Front Wheel Drive,7,58530,
+Toyota PROACE Verso L 50 kWh,45,12.1,130,180,250,240,Front Wheel Drive,7,59385,
+SEAT Mii Electric,32.3,12.3,130,205,158,170,Front Wheel Drive,4,24650,
+Renault Twingo Electric,21.3,12.6,135,130,164,,Rear Wheel Drive,4,24790,
+Smart EQ forfour,16.7,12.7,130,95,176,,Rear Wheel Drive,4,19120,19795
+Peugeot e-Traveller Standard 50 kWh,45,13.1,130,185,243,250,Front Wheel Drive,7,55900,49065
+Peugeot e-Traveller Long 50 kWh,45,13.1,130,185,243,250,Front Wheel Drive,7,56690,49905
+Toyota PROACE Verso M 75 kWh,68,13.1,130,270,252,290,Front Wheel Drive,7,64530,
+Toyota PROACE Verso L 75 kWh,68,13.1,130,270,252,290,Front Wheel Drive,7,65385,
+Citroen e-SpaceTourer M 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,57440,
+Citroen e-SpaceTourer XL 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,58230,
+Opel Zafira-e Life M 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,59800,
+Opel Zafira-e Life L 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,60625,
+Peugeot e-Traveller Standard 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,57440,
+Peugeot e-Traveller Long 75 kWh,68,13.3,130,270,252,290,Front Wheel Drive,7,58230,
+Nissan e-NV200 Evalia,36,14,123,165,218,170,Front Wheel Drive,7,43433,30255
+Dacia Spring Electric,26.8,15,125,170,158,120,Front Wheel Drive,4,20490,
+Renault Kangoo Maxi ZE 33,31,22.4,130,160,194,,Front Wheel Drive,5,,31680
