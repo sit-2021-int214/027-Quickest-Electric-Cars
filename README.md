@@ -47,6 +47,7 @@ Important Files in Repository
 * [Test-data.R](./R-code.R) : Data Cleaning and Data Transformation 
 * [Quickest Electric Cars](./Quickestelectriccars-EVDatabase.csv) : Original Dataset
 * [Quickest Electric Cars Ver.2](./Cleaned-data.csv) : Cleaned Dataset
+* [Hypothesis Testing](./Hypothesis.R)
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
