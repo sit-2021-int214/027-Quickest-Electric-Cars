@@ -1,4 +1,7 @@
 # Group027-Quickest-Electric-Cars
+
+![EV car](EVcar.jpeg)
+
 Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quickest-electric-cars-ev-database?select=Quickestelectriccars-EVDatabase.csv)
 
 ## Overview
@@ -29,13 +32,15 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 - Google docs
 - R Language
 - R Studio Desktop
-- website kaggle
+- Website kaggle
 - Visual studio
+- Power BI Desktop
 
 ### Table of Contents
 1. [Download Library and dataset + Data Cleaning and Data Transformation](./Cleaning.md)
 2. [Answer the question](./Answer.md)
 3. [Data Visualizations](https://app.powerbi.com/view?r=eyJrIjoiZWMyOWI0MjMtYzk2MC00NDAzLTllMDAtODcwNDVhZjkwYWNhIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+4. [Hypothesis Testing](./Hypothesis-testing.md)
 
 ## Resources
 Important Files in Repository
@@ -45,12 +50,13 @@ Important Files in Repository
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+
 ### Team: name : นึกไม่ออกขอ A แทนละกัน
-1. พรธิชา    แสงมณี            StudentID: 63130500084
-2. พิรญาณ์   สุทธิปริญญานนท์     StudentID: 63130500087
-3. วิชชุตา    พิภพภิญโญ         StudentID: 63130500106
-4. กรรณิการ์  งาสุวรรณ์           StudentID: 63130500147
-5. เกศดารา  ศิลารัตน์            StudentID: 63130500149
+1. พรธิชา    แสงมณี               StudentID: 63130500084
+2. พิรญาณ์   สุทธิปริญญานนท์          StudentID: 63130500087
+3. วิชชุตา    พิภพภิญโญ             StudentID: 63130500106
+4. กรรณิการ์  งาสุวรรณ์             StudentID: 63130500147
+5. เกศดารา  ศิลารัตน์              StudentID: 63130500149
 
 ### Instructor
 - ATCHARA TRAN-U-RAIKUL
