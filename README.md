@@ -10,7 +10,7 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 ||Column Name|Column descirption|Unit|Data type|
 |----|---------|--------------|-----|-------|
 |1|Name|ชื่อยี่ห้อและรุ่นของรถ||character|
-|2|Subtitle|ความจุแบตเตอรี่ของรถ|kwh|character|
+|2|Battery|ความจุแบตเตอรี่ของรถ|kwh|character|
 |3|Acceleration|อัตราการเร่ง เมื่อรถเปลี่ยนความเร็ว|sec|character|
 |4|TopSpeed|ความเร็วสูงสุด|km/h|character|
 |5|Range|ค่าระยะทางที่รถสามารถวิ่งได้ จนพลังงานนั้นหมด|km|character|
