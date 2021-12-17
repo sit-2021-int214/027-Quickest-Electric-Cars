@@ -39,7 +39,7 @@ Datasets from: [Quickest Electric Cars](https://www.kaggle.com/kkhandekar/quicke
 ### Table of Contents
 1. [Download Library and dataset + Data Cleaning and Data Transformation](./Cleaning.md)
 2. [Answer the question](./Answer.md)
-3. [Data Visualizations](https://app.powerbi.com/view?r=eyJrIjoiZWMyOWI0MjMtYzk2MC00NDAzLTllMDAtODcwNDVhZjkwYWNhIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+3. [Data Visualizations](https://app.powerbi.com/view?r=eyJrIjoiMzMyOWIyZDItY2U0Yi00YmUwLWI0M2EtOGVlYTI3ZTM1YzY3IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 5. [Hypothesis Testing](./Hypothesis-testing.md)
 
 ## Resources
